@@ -12,7 +12,7 @@
       "type": "Light",
       "name": "Bedroom",
       "on": true,
-      "color": "#FFDE67",
+      "color": "#FF0000",
       "brightness": 1,
       "state": "off"
     },
