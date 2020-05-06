@@ -25,4 +25,15 @@ router.get("/:id/color/:value", (req, res) => {
   res.send({ msg: `Light ${id} is now HEX color ${color}` });
 });
 
+// Change light brightness
+router.get("/:id/brightness/:value", (req, res) => {
+  const id = req.params.id;
+  const value = Number(req.params.value);
+
+  db.get("devices").find({ id: id }).assign({ brightness: value }).write();
+  update();
+
+  res.send({ msg: `Light ${id} has a brightness of ${value}` });
+});
+
 module.exports = router;

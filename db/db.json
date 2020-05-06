@@ -13,7 +13,7 @@
       "name": "Bedroom",
       "on": true,
       "color": "#FF0000",
-      "brightness": 1,
+      "brightness": 0.2,
       "state": "off"
     },
     {
