@@ -20,8 +20,8 @@
       "id": "LIG2",
       "type": "Light",
       "name": "Living room",
-      "on": false,
-      "color": "#FFDE67",
+      "on": true,
+      "color": "#ff00c0",
       "brightness": 0.5,
       "state": "off"
     },
@@ -29,9 +29,9 @@
       "id": "LIG3",
       "type": "Light",
       "name": "Garden",
-      "on": false,
-      "color": "#FFDE67",
-      "brightness": 1,
+      "on": true,
+      "color": "#ff00c0",
+      "brightness": 0.1,
       "state": "off"
     },
     {
