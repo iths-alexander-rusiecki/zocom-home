@@ -45,8 +45,8 @@
       "id": "AC1",
       "type": "AC",
       "name": "Bedroom",
-      "on": false,
-      "temperature": 17,
+      "on": true,
+      "temperature": 20,
       "state": "off"
     },
     {
